@@ -3,34 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConversionCalc</title>
+    <title>NumeroFactorial</title>
 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <section class="input-user">
-        <h1>¡Convierte de Celsius a Fahrenheit y Kelvin!</h1>
+        <h1>¡Averigua el factorial de un número!</h1>
         <div>
             <form action="">
                 <div class="form-group">
-                    <label class="input-label" for="celsius">°Celsius: </label>
+                    <label class="input-label" for="numberFactorial">Escribe aquí tu número: </label>
                     <br>
-                    <input class="input-camp" type="text" id="celsius" name="celsius" placeholder="Ingresa un valor" required>
+                    <input class="input-camp" type="text" id="numero" name="numero" placeholder="Ingresa un valor" required>
                 </div>
                 <br><br>
-                <button class="convert-btn" id="convert">Convertir</button>
+                <button class="convert-btn" id="convert">Factorial</button>
             </form>
         </div>
     </section>
     <section class="show-conversion">
         <div>
-            <h2>Resultados</h2>
-            <h3>°Celsius:</h3>
-            <p id="celsiusValue"></p>
-            <h3>°Fahrenheit:</h3>
-            <p id="fahrenheit"></p>
-            <h3>°Kelvin:</h3>
-            <p id="kelvin"></p>
+            <h2>Resultado</h2>
+            <h3>Factorial de tu numero:</h3>
+            <p id="factorialValue">0</p>
         </div>
     </section>
 
